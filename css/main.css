@@ -175,16 +175,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+/*@media only screen and (min-width: 35em) {*/
+/*    !* Style adjustments for viewports that meet the condition *!*/
+/*}*/
 
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+/*@media print,*/
+/*(-webkit-min-device-pixel-ratio: 1.25),*/
+/*(min-resolution: 1.25dppx),*/
+/*(min-resolution: 120dpi) {*/
+/*    !* Style adjustments for high resolution devices *!*/
+/*}*/
 
 /* ==========================================================================
    Print styles.
@@ -192,89 +192,177 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+/*@media print {*/
+/*    *,*/
+/*    *::before,*/
+/*    *::after {*/
+/*        background: #fff !important;*/
+/*        color: #000 !important;*/
+/*        !* Black prints faster *!*/
+/*        box-shadow: none !important;*/
+/*        text-shadow: none !important;*/
+/*    }*/
+
+/*    a,*/
+/*    a:visited {*/
+/*        text-decoration: underline;*/
+/*    }*/
+
+/*    a[href]::after {*/
+/*        content: " (" attr(href) ")";*/
+/*    }*/
+
+/*    abbr[title]::after {*/
+/*        content: " (" attr(title) ")";*/
+/*    }*/
+
+/*    !**/
+/*     * Don't show links that are fragment identifiers,*/
+/*     * or use the `javascript:` pseudo protocol*/
+/*     *!*/
+/*    a[href^="#"]::after,*/
+/*    a[href^="javascript:"]::after {*/
+/*        content: "";*/
+/*    }*/
+
+/*    pre {*/
+/*        white-space: pre-wrap !important;*/
+/*    }*/
+
+/*    pre,*/
+/*    blockquote {*/
+/*        border: 1px solid #999;*/
+/*        page-break-inside: avoid;*/
+/*    }*/
+
+/*    !**/
+/*     * Printing Tables:*/
+/*     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables*/
+/*     *!*/
+/*    thead {*/
+/*        display: table-header-group;*/
+/*    }*/
+
+/*    tr,*/
+/*    img {*/
+/*        page-break-inside: avoid;*/
+/*    }*/
+
+/*    p,*/
+/*    h2,*/
+/*    h3 {*/
+/*        orphans: 3;*/
+/*        widows: 3;*/
+/*    }*/
+
+/*    h2,*/
+/*    h3 {*/
+/*        page-break-after: avoid;*/
+/*    }*/
+/*}*/
+
+@media only screen and (max-width: 1080px) {
+  .col-1 {
+    width: 33%;
   }
 
-  a,
-  a:visited {
-    text-decoration: underline;
+  .col-2 {
+    width: 66%;
   }
 
-  a[href]::after {
-    content: " (" attr(href) ")";
+  .col-3 {
+    width: 100%;
   }
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
+  h1 span {
+    font-size: 72px;
   }
 
-  /*
-   * Don't show links that are fragment identifiers,
-   * or use the `javascript:` pseudo protocol
-   */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
+  h2 {
+    font-size: 72px;
   }
 
-  pre {
-    white-space: pre-wrap !important;
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-
-  /*
-   * Printing Tables:
-   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
-   */
-  thead {
-    display: table-header-group;
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  p,
-  h2,
   h3 {
-    orphans: 3;
-    widows: 3;
+    font-size: 56px;
   }
 
-  h2,
+  p, ul, ol {
+    font-size: 48px;
+  }
+
+  .opener {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .col-1 {
+    width: 8.33%;
+  }
+
+  .col-2 {
+    width: 16.66%;
+  }
+
+  .col-3 {
+    width: 25%;
+  }
+
+  .col-4 {
+    width: 33.33%;
+  }
+
+  .col-5 {
+    width: 41.66%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-7 {
+    width: 58.33%;
+  }
+
+  .col-8 {
+    width: 66.66%;
+  }
+
+  .col-9 {
+    width: 75%;
+  }
+
+  .col-10 {
+    width: 83.33%;
+  }
+
+  .col-11 {
+    width: 91.66%;
+  }
+
+  .col-12 {
+    width: 100%;
+  }
+
+  h1 span {
+    font-size: 72px;
+  }
+
+  h2 {
+    font-size: 56px;
+  }
+
   h3 {
-    page-break-after: avoid;
+    font-size: 30px;
   }
-}
 
-.column {
-  margin: 0 auto;
-  width: 1140px;
-}
+  p, ul, ol {
+    font-size: 21px;
+  }
 
-h1 span {
-  text-transform: lowercase;
-  display: inline-block;
-  font-size: 72px;
-  margin-right: 16px;
-}
-
-h2 {
-  font-size: 56px;
+  .opener {
+    font-size: 28px;
+  }
 }
 
 header img {
@@ -290,26 +378,10 @@ header img {
   padding: 0 2px;
 }
 
-h3 {
-  font-size: 30px;
-}
-
 .burning {
   background-color: #920000;
   color: #ffffff;
   padding: 0 3px;
-}
-
-.opener {
-  font-size: 28px;
-}
-
-p, ul, ol {
-  font-size: 21px;
-}
-
-a:hover {
-
 }
 
 a {
@@ -336,41 +408,8 @@ a:active {
   color: #8b00ff;
 }
 
-label {
-  text-align: left;
-  display: block;
-  width: 120px;
-  font-size: 18px;
-}
-
 .contactus div {
   margin: 8px 0;
-}
-
-input, textarea {
-  border-color: #aaa;
-  border-width: 1px;
-  box-shadow: 0 0 0 #719ECE;
-}
-
-input[type="text"], input[type="email"] {
-  outline: none !important;
-  width: 240px;
-  height: 24px;
-}
-
-textarea {
-  width: 400px;
-  height: 120px;
-}
-
-input[type="submit"] {
-  background-color: #ff7e26;
-  color: #ffffff;
-  width: 80px;
-  height: 24px;
-  border-collapse: collapse;
-  border: 0 none;
 }
 
 #quotes p span {
@@ -384,12 +423,12 @@ input[type="submit"] {
   color: darkred;
 }
 
-#events .img {
-  background-image: url("../img/peeps2.jpeg");
-  background-repeat: no-repeat;
-  height: 577px;
-  background-size: contain;
-}
+/*#events .img {*/
+/*  background-image: url("../img/peeps2.jpeg");*/
+/*  background-repeat: no-repeat;*/
+/*  height: 577px;*/
+/*  background-size: contain;*/
+/*}*/
 
 img.center {
   display: block;
@@ -398,14 +437,23 @@ img.center {
   width: 75%;
 }
 
-/*input:focus {*/
-/*  outline: none !important;*/
-/*  border-color: #719ECE;*/
-/*  box-shadow: 0 0 2px #719ECE;*/
-/*}*/
+header, main {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 3px;
+}
 
-/*textarea:focus {*/
-/*  outline: none !important;*/
-/*  border-color: #719ECE;*/
-/*  box-shadow: 0 0 2px #719ECE;*/
-/*}*/
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
