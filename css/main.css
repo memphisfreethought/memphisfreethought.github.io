@@ -262,42 +262,47 @@ textarea {
 /*}*/
 
 @media only screen and (max-width: 1080px) {
-  .col-1 {
+  .col-4 {
     width: 33%;
   }
 
-  .col-2 {
+  .col-8 {
     width: 66%;
   }
 
-  .col-3 {
+  .col-12 {
     width: 100%;
   }
 
-  header, main {
-    width: 90%;
+  body {
+    width: 100%;
     margin: 0 auto;
     padding: 0 3px;
   }
 
+  header img {
+    display: inline;
+    float: left;
+  }
+
   h1 span {
-    font-size: 72px;
+    font-size: 42px;
   }
 
   h2 {
-    font-size: 72px;
+    font-size: 36px;
   }
 
   h3 {
-    font-size: 56px;
+    font-size: 24px;
   }
 
   p, ul, ol {
-    font-size: 48px;
+    font-size: 20px;
   }
 
   .opener {
-    font-size: 64px;
+    font-size: 24px;
   }
 }
 
@@ -350,10 +355,15 @@ textarea {
     width: 100%;
   }
 
-  header, main {
+  body {
     width: 1140px;
     margin: 0 auto;
     padding: 0 3px;
+  }
+
+  header img {
+    display: inline;
+    float: left;
   }
 
   h1 span {
