@@ -192,7 +192,7 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1080px) {
   .col-4 {
     width: 33%;
   }
