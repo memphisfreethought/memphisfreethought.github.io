@@ -300,10 +300,10 @@ textarea {
   }
 
   header img {
-    width: 75px;
-    height: 150px;
+    width: 70px;
+    height: 140px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 8px;
   }
 
   header, main {
