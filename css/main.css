@@ -423,13 +423,6 @@ a:active {
   color: darkred;
 }
 
-/*#events .img {*/
-/*  background-image: url("../img/peeps2.jpeg");*/
-/*  background-repeat: no-repeat;*/
-/*  height: 577px;*/
-/*  background-size: contain;*/
-/*}*/
-
 img.center {
   display: block;
   margin-left: auto;
@@ -440,7 +433,7 @@ img.center {
 header, main {
   width: 1140px;
   margin: 0 auto;
-  padding: 0 3px;
+  padding: 0;
 }
 
 * {
@@ -449,7 +442,7 @@ header, main {
 
 [class*="col-"] {
   float: left;
-  padding: 15px;
+  padding: 0 15px;
 }
 
 .row::after {
