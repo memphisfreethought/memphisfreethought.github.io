@@ -235,12 +235,28 @@ textarea {
     font-size: 20px;
   }
 
+  h4 {
+    font-size: 18px;
+  }
+
   p, ul, ol {
     font-size: 16px;
   }
 
   .opener {
     font-size: 20px;
+  }
+
+
+  #affiliations img {
+    width: 40%;
+    height: auto;
+    padding: 0 10px;
+    display: inline-block;
+  }
+
+  #affiliations {
+    margin-bottom: 50px;
   }
 }
 
@@ -324,12 +340,27 @@ textarea {
     font-size: 30px;
   }
 
+  h4 {
+    font-size: 28px;
+  }
+
   p, ul, ol {
     font-size: 21px;
   }
 
   .opener {
     font-size: 28px;
+  }
+
+  #affiliations img {
+    width: 16%;
+    height: auto;
+    padding: 0 10px;
+    display: inline-block;
+  }
+
+  #affiliations {
+    margin-bottom: 50px;
   }
 }
 
