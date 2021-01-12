@@ -192,7 +192,7 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 375px) {
   .col-4 {
     width: 33%;
   }
@@ -212,36 +212,35 @@ textarea {
   }
 
   header, main {
-    width: 812px;
     margin: 0 auto;
     padding: 0;
   }
 
   header img {
-    width: 40px;
-    height: 80px;
+    width: 30px;
+    height: 60px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2px;
   }
 
   h1 span {
-    font-size: 48px;
+    font-size: 22px;
   }
 
   h2 {
-    font-size: 42px;
+    font-size: 21px;
   }
 
   h3 {
-    font-size: 36px;
+    font-size: 20px;
   }
 
   p, ul, ol {
-    font-size: 28px;
+    font-size: 16px;
   }
 
   .opener {
-    font-size: 36px;
+    font-size: 20px;
   }
 }
 
