@@ -212,36 +212,36 @@ textarea {
   }
 
   header, main {
-    width: 1140px;
+    width: 812px;
     margin: 0 auto;
     padding: 0;
   }
 
   header img {
-    width: 75px;
-    height: 150px;
+    width: 40px;
+    height: 80px;
     display: inline-block;
     margin-right: 20px;
   }
 
   h1 span {
-    font-size: 68px;
+    font-size: 48px;
   }
 
   h2 {
-    font-size: 54px;
-  }
-
-  h3 {
-    font-size: 48px;
-  }
-
-  p, ul, ol {
     font-size: 42px;
   }
 
+  h3 {
+    font-size: 36px;
+  }
+
+  p, ul, ol {
+    font-size: 28px;
+  }
+
   .opener {
-    font-size: 48px;
+    font-size: 36px;
   }
 }
 
@@ -300,6 +300,13 @@ textarea {
     padding: 0 3px;
   }
 
+  header img {
+    width: 75px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 20px;
+  }
+
   header, main {
     width: 1140px;
     margin: 0 auto;
@@ -325,13 +332,6 @@ textarea {
   .opener {
     font-size: 28px;
   }
-}
-
-header img {
-  width: 75px;
-  height: 150px;
-  display: inline-block;
-  margin-right: 20px;
 }
 
 .human {
@@ -368,10 +368,6 @@ a:hover {
 /* selected link */
 a:active {
   color: #8b00ff;
-}
-
-.contactus div {
-  margin: 8px 0;
 }
 
 #quotes p span {
