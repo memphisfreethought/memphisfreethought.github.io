@@ -192,75 +192,6 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-/*@media print {*/
-/*    *,*/
-/*    *::before,*/
-/*    *::after {*/
-/*        background: #fff !important;*/
-/*        color: #000 !important;*/
-/*        !* Black prints faster *!*/
-/*        box-shadow: none !important;*/
-/*        text-shadow: none !important;*/
-/*    }*/
-
-/*    a,*/
-/*    a:visited {*/
-/*        text-decoration: underline;*/
-/*    }*/
-
-/*    a[href]::after {*/
-/*        content: " (" attr(href) ")";*/
-/*    }*/
-
-/*    abbr[title]::after {*/
-/*        content: " (" attr(title) ")";*/
-/*    }*/
-
-/*    !**/
-/*     * Don't show links that are fragment identifiers,*/
-/*     * or use the `javascript:` pseudo protocol*/
-/*     *!*/
-/*    a[href^="#"]::after,*/
-/*    a[href^="javascript:"]::after {*/
-/*        content: "";*/
-/*    }*/
-
-/*    pre {*/
-/*        white-space: pre-wrap !important;*/
-/*    }*/
-
-/*    pre,*/
-/*    blockquote {*/
-/*        border: 1px solid #999;*/
-/*        page-break-inside: avoid;*/
-/*    }*/
-
-/*    !**/
-/*     * Printing Tables:*/
-/*     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables*/
-/*     *!*/
-/*    thead {*/
-/*        display: table-header-group;*/
-/*    }*/
-
-/*    tr,*/
-/*    img {*/
-/*        page-break-inside: avoid;*/
-/*    }*/
-
-/*    p,*/
-/*    h2,*/
-/*    h3 {*/
-/*        orphans: 3;*/
-/*        widows: 3;*/
-/*    }*/
-
-/*    h2,*/
-/*    h3 {*/
-/*        page-break-after: avoid;*/
-/*    }*/
-/*}*/
-
 @media only screen and (max-width: 1080px) {
   .col-4 {
     width: 33%;
@@ -280,29 +211,37 @@ textarea {
     padding: 0 3px;
   }
 
+  header, main {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
   header img {
-    display: inline;
-    float: left;
+    width: 75px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 20px;
   }
 
   h1 span {
-    font-size: 42px;
+    font-size: 68px;
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 54px;
   }
 
   h3 {
-    font-size: 24px;
+    font-size: 48px;
   }
 
   p, ul, ol {
-    font-size: 20px;
+    font-size: 42px;
   }
 
   .opener {
-    font-size: 24px;
+    font-size: 48px;
   }
 }
 
@@ -361,9 +300,10 @@ textarea {
     padding: 0 3px;
   }
 
-  header img {
-    display: inline;
-    float: left;
+  header, main {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
   }
 
   h1 span {
@@ -439,23 +379,11 @@ a:active {
   display: block;
 }
 
-.err {
-  display: block;
-  font-size: 18px;
-  color: darkred;
-}
-
 img.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-}
-
-header, main {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0;
+  width: 100%;
 }
 
 * {
