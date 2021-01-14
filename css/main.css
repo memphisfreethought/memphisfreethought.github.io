@@ -12,9 +12,9 @@
    ========================================================================== */
 
 html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 /*
@@ -28,13 +28,13 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 /*
@@ -42,12 +42,12 @@ html {
  */
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 /*
@@ -62,7 +62,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 /*
@@ -70,9 +70,9 @@ video {
  */
 
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /*
@@ -80,7 +80,7 @@ fieldset {
  */
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 /* ==========================================================================
@@ -97,7 +97,7 @@ textarea {
 
 .hidden,
 [hidden] {
-  display: none !important;
+    display: none !important;
 }
 
 /*
@@ -110,16 +110,16 @@ textarea {
  */
 
 .sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    /* 1 */
 }
 
 /*
@@ -130,13 +130,13 @@ textarea {
 
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    white-space: inherit;
+    width: auto;
 }
 
 /*
@@ -144,7 +144,7 @@ textarea {
  */
 
 .invisible {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 /*
@@ -161,12 +161,12 @@ textarea {
 
 .clearfix::before,
 .clearfix::after {
-  content: " ";
-  display: table;
+    content: " ";
+    display: table;
 }
 
 .clearfix::after {
-  clear: both;
+    clear: both;
 }
 
 /* ==========================================================================
@@ -193,306 +193,311 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 375px) {
-  .col-4 {
-    width: 33%;
-  }
+    .col-4 {
+        width: 33%;
+    }
 
-  .col-8 {
-    width: 66%;
-  }
+    .col-8 {
+        width: 66%;
+    }
 
-  .col-12 {
-    width: 100%;
-  }
+    .col-12 {
+        width: 100%;
+    }
 
-  body {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 3px;
-  }
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 3px;
+    }
 
-  header, main {
-    margin: 0 auto;
-    padding: 0;
-  }
+    header, main {
+        margin: 0 auto;
+        padding: 0;
+    }
 
-  header img {
-    width: 30px;
-    height: 60px;
-    display: inline-block;
-    margin-right: 2px;
-  }
+    header img {
+        width: 30px;
+        height: 60px;
+        display: inline-block;
+        margin-right: 2px;
+    }
 
-  h1 span {
-    font-size: 22px;
-  }
+    h1 span {
+        font-size: 22px;
+    }
 
-  h2 {
-    font-size: 28px;
-  }
+    h2 {
+        font-size: 28px;
+    }
 
-  h3 {
-    font-size: 20px;
-  }
+    h3 {
+        font-size: 20px;
+    }
 
-  h4 {
-    font-size: 18px;
-  }
+    h4 {
+        font-size: 18px;
+    }
 
-  p, ul, ol {
-    font-size: 16px;
-  }
+    p, ul, ol {
+        font-size: 16px;
+    }
 
-  .opener {
-    font-size: 20px;
-  }
+    .opener {
+        font-size: 20px;
+    }
 
-  #affiliations img {
-    width: 40%;
-    height: auto;
-    padding: 0 10px;
-    display: inline-block;
-  }
+    #affiliations img {
+        width: 40%;
+        height: auto;
+        padding: 0 10px;
+        display: inline-block;
+    }
 
-  #affiliations {
-    margin-bottom: 50px;
-  }
+    #affiliations {
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 800px) {
-  .col-4 {
-    width: 33%;
-  }
+    .col-4 {
+        width: 33%;
+    }
 
-  .col-8 {
-    width: 66%;
-  }
+    .col-8 {
+        width: 66%;
+    }
 
-  .col-12 {
-    width: 100%;
-  }
+    .col-12 {
+        width: 100%;
+    }
 
-  body {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 3px;
-  }
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 3px;
+    }
 
-  header, main {
-    margin: 0 auto;
-    padding: 0;
-  }
+    header, main {
+        margin: 0 auto;
+        padding: 0;
+    }
 
-  header img {
-    width: 35px;
-    height: 70px;
-    display: inline-block;
-    margin-right: 2px;
-  }
+    header img {
+        width: 35px;
+        height: 70px;
+        display: inline-block;
+        margin-right: 2px;
+    }
 
-  h1 span {
-    font-size: 48px;
-  }
+    h1 span {
+        font-size: 48px;
+    }
 
-  h2 {
-    font-size: 28px;
-  }
+    h2 {
+        font-size: 28px;
+    }
 
-  h3 {
-    font-size: 20px;
-  }
+    h3 {
+        font-size: 20px;
+    }
 
-  h4 {
-    font-size: 18px;
-  }
+    h4 {
+        font-size: 18px;
+    }
 
-  p, ul, ol {
-    font-size: 16px;
-  }
+    p, ul, ol {
+        font-size: 16px;
+    }
 
-  .opener {
-    font-size: 20px;
-  }
+    .opener {
+        font-size: 20px;
+    }
 
-  #affiliations img {
-    width: 40%;
-    height: auto;
-    padding: 0 10px;
-    display: inline-block;
-  }
+    #affiliations img {
+        width: 40%;
+        height: auto;
+        padding: 0 10px;
+        display: inline-block;
+    }
 
-  #affiliations {
-    margin-bottom: 50px;
-  }
+    #affiliations {
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 1080px) {
-  .col-1 {
-    width: 8.33%;
-  }
+    .col-1 {
+        width: 8.33%;
+    }
 
-  .col-2 {
-    width: 16.66%;
-  }
+    .col-2 {
+        width: 16.66%;
+    }
 
-  .col-3 {
-    width: 25%;
-  }
+    .col-3 {
+        width: 25%;
+    }
 
-  .col-4 {
-    width: 33.33%;
-  }
+    .col-4 {
+        width: 33.33%;
+    }
 
-  .col-5 {
-    width: 41.66%;
-  }
+    .col-5 {
+        width: 41.66%;
+    }
 
-  .col-6 {
-    width: 50%;
-  }
+    .col-6 {
+        width: 50%;
+    }
 
-  .col-7 {
-    width: 58.33%;
-  }
+    .col-7 {
+        width: 58.33%;
+    }
 
-  .col-8 {
-    width: 66.66%;
-  }
+    .col-8 {
+        width: 66.66%;
+    }
 
-  .col-9 {
-    width: 75%;
-  }
+    .col-9 {
+        width: 75%;
+    }
 
-  .col-10 {
-    width: 83.33%;
-  }
+    .col-10 {
+        width: 83.33%;
+    }
 
-  .col-11 {
-    width: 91.66%;
-  }
+    .col-11 {
+        width: 91.66%;
+    }
 
-  .col-12 {
-    width: 100%;
-  }
+    .col-12 {
+        width: 100%;
+    }
 
-  body {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0 3px;
-  }
+    body {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0 3px;
+    }
 
-  header img {
-    width: 70px;
-    height: 140px;
-    display: inline-block;
-    margin-right: 8px;
-  }
+    header img {
+        width: 70px;
+        height: 140px;
+        display: inline-block;
+        margin-right: 8px;
+    }
 
-  header, main {
-    width: 1140px;
-    margin: 0 auto;
-    padding: 0;
-  }
+    header, main {
+        width: 1140px;
+        margin: 0 auto;
+        padding: 0;
+    }
 
-  h1 span {
-    font-size: 72px;
-  }
+    h1 span {
+        font-size: 72px;
+    }
 
-  h2 {
-    font-size: 56px;
-  }
+    h2 {
+        font-size: 56px;
+    }
 
-  h3 {
-    font-size: 30px;
-  }
+    h3 {
+        font-size: 30px;
+    }
 
-  h4 {
-    font-size: 28px;
-  }
+    h4 {
+        font-size: 28px;
+    }
 
-  p, ul, ol {
-    font-size: 21px;
-  }
+    p, ul, ol {
+        font-size: 21px;
+    }
 
-  .opener {
-    font-size: 28px;
-  }
+    .opener {
+        font-size: 28px;
+    }
 
-  #affiliations img {
-    width: 16%;
-    height: auto;
-    padding: 0 10px;
-    display: inline-block;
-  }
+    #affiliations img {
+        width: 16%;
+        height: auto;
+        padding: 0 10px;
+        display: inline-block;
+    }
 
-  #affiliations {
-    margin-bottom: 50px;
-  }
+    #affiliations {
+        margin-bottom: 50px;
+    }
 }
 
 .human {
-  background-color: #ff7e26;
-  color: white;
-  padding: 0 2px;
+    background-color: #ff7e26;
+    color: white;
+    padding: 0 2px;
 }
 
 .burning {
-  background-color: #920000;
-  color: #ffffff;
-  padding: 0 3px;
+    background-color: #920000;
+    color: #ffffff;
+    padding: 0 3px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 /* unvisited link */
 a:link {
-  color: #cf0001;
+    color: #0966af;
 }
 
 /* visited link */
 a:visited {
-  color: #8c0001;
+    color: #024172;
 }
 
 /* mouse over link */
 a:hover {
-  color: #f15323;
+    color: #238fe3;
 }
 
 /* selected link */
 a:active {
-  color: #8b00ff;
+    color: #8b00ff;
 }
 
 #quotes p span {
-  font-weight: bold;
-  display: block;
+    font-weight: bold;
+    display: block;
 }
 
 img.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+img.paypal {
+    width: 32px;
+    height: 20px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 [class*="col-"] {
-  float: left;
-  padding: 0 15px;
+    float: left;
+    padding: 0 15px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 img.meetup {
-  height: 16px;
+    height: 16px;
 }
