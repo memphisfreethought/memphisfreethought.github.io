@@ -492,3 +492,7 @@ img.center {
   clear: both;
   display: table;
 }
+
+img.meetup {
+  height: 16px;
+}
